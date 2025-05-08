@@ -18,7 +18,6 @@ export default function ChatWrapper() {
 
   return (
     <div className="flex h-screen">
-        <Navbar />
 
       <div className="flex-1 max-w-3xl mx-auto w-full p-4 flex flex-col">
       

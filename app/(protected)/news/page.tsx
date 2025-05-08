@@ -53,9 +53,7 @@ const News: React.FC = () => {
   };
 
   return (
-    <div className="flex h-screen">
    
-        <Navbar />
 
       <div className=" overflow-y-scroll h-full p-4">
         <h2 className="text-2xl font-bold mb-4 text-center">
@@ -99,7 +97,6 @@ const News: React.FC = () => {
           </div>
         )}
       </div>
-    </div>
   );
 };
 

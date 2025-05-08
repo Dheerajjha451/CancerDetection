@@ -60,7 +60,6 @@ const SettingsPage = () => {
 
   return (
     <div className="flex h-screen">
-        <Navbar />
       <div className="w-3/4 p-4">
         <Card className="w-full">
           <CardHeader>

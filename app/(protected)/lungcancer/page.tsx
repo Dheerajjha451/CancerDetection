@@ -58,8 +58,7 @@ const Upload: React.FC = () => {
   }, []);
 
   return (
-    <div className="flex h-screen">
-      <Navbar />
+
       <div className="flex flex-col items-center w-full p-4">
         <div className="w-full max-w-lg p-4 bg-white shadow-lg rounded-lg mb-6 border-t text-center">
           <label htmlFor="upload-button" className="cursor-pointer">
@@ -101,7 +100,6 @@ const Upload: React.FC = () => {
           </div>
         )}
       </div>
-    </div>
   );
 };
 

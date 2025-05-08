@@ -91,8 +91,7 @@ export default function Home() {
   };
 
   return (
-    <div className="flex h-screen ">
-      <Navbar />
+  
       <div className="flex flex-col items-center w-full p-4">
         <div className="w-full p-4 mb-6 text-center">
           <h1 className="text-4xl font-extrabold text-center mb-6 text-gray-800">
@@ -198,6 +197,5 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </div>
   );
 }

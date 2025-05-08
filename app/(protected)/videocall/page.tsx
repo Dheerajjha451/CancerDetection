@@ -8,7 +8,6 @@ const VideoCall = () => {
 
     return (
         <div className="flex h-screen">
-                <Navbar />
             <div className="w-3/4 flex items-center flex-col justify-center">
                 <h1 className="text-[32px] mb-[1rem] md:text-[35px] lg:text-[50px] text-center font-bold leading-[4rem] text-black">
                     Connect With Your Patient
