@@ -21,7 +21,6 @@ import { Input } from '@/components/ui/input';
 import { useCurrentUser } from '@/hooks/use-current-user';
 import { FormError } from '@/components/form-error';
 import { FormSuccess } from '@/components/form-success';
-import { Navbar } from '../_components/navbar';
 
 const SettingsPage = () => {
   const user = useCurrentUser();

@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { Navbar } from "../_components/navbar";
 
 interface Article {
   title: string;

@@ -3,7 +3,6 @@
 import { useState, useEffect, useRef } from "react";
 import * as tmImage from "@teachablemachine/image";
 import Image from "next/image";
-import { Navbar } from "../_components/navbar";
 
 const Upload: React.FC = () => {
   const [model, setModel] = useState<tmImage.CustomMobileNet | null>(null);

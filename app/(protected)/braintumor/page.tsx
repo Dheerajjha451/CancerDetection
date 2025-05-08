@@ -1,6 +1,5 @@
 "use client";
 import { useRef, useState, useEffect } from "react";
-import { Navbar } from "../_components/navbar";
 import { Button } from "@/components/ui/button";
 
 interface Prediction {

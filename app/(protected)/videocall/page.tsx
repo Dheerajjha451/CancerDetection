@@ -1,7 +1,6 @@
 "use client"
 import Link from "next/link";
 import { useState } from "react";
-import { Navbar } from "../_components/navbar";
 
 const VideoCall = () => {
     const [roomID, setRoomID] = useState('');

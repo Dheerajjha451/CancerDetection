@@ -7,7 +7,6 @@ import { Button } from "../../../components/ui/button";
 import { Loader, Send } from "lucide-react";
 import { Separator } from "../../../components/ui/separator";
 import Messages from "./messages";
-import { Navbar } from "../_components/navbar";
 
 export default function ChatWrapper() {
   const { isLoading, messages, handleInputChange, input, handleSubmit } =
