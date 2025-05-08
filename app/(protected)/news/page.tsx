@@ -14,7 +14,7 @@ const News: React.FC = () => {
   const [news, setNews] = useState<Article[]>([]);
   const [pageNumber, setPageNumber] = useState<number>(1);
   const [loading, setLoading] = useState<boolean>(false);
-  const API_KEY = process.env.NEXT_PUBLIC_NEWS;
+  const API_KEY = process.env.NEXT_PUBLIC_NEWS_API_KEY;
 
 
   useEffect(() => {
