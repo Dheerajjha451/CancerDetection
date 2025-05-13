@@ -63,6 +63,13 @@ export const Navbar = () => {
           </Button>
           <Button
             asChild
+            variant={pathname === "/skincancer" ? "default" : "outline"}
+            className="w-full"
+          >
+            <Link href="/skincancer">Skin Cancer</Link>
+          </Button>
+          <Button
+            asChild
             variant={pathname === "/chatbot" ? "default" : "outline"}
             className="w-full"
           >
