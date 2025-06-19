@@ -17,7 +17,6 @@ export const Navbar = () => {
 
   return (
     <div className="relative">
-      {/* Mobile Toggle Button */}
       <button
         className="lg:hidden p-2 text-xl"
         onClick={toggleNavbar}
@@ -26,11 +25,10 @@ export const Navbar = () => {
         {isOpen ? <Cross1Icon className="w-6 h-6" /> : <HamburgerMenuIcon className="w-6 h-6" />}
       </button>
 
-      {/* Navbar */}
       <nav
         className={`bg-secondary flex flex-col justify-between items-start p-4 rounded-xl h-full w-60 shadow-sm fixed lg:relative top-0 left-0 z-50 transition-transform transform ${
           isOpen ? "translate-x-0" : "-translate-x-full"
-        } lg:translate-x-0 lg:flex`} // Show/Hide based on state
+        } lg:translate-x-0 lg:flex`}
       >
         <div className="flex flex-col gap-y-2 w-full">
           <div className="flex justify-between items-center w-full">
@@ -97,7 +95,9 @@ export const Navbar = () => {
             <Link href="/settings">Settings</Link>
           </Button>
         </div>
+        <div className="mt-4 w-full">
         <UserButton />
+        </div>
       </nav>
 
       {/* Overlay for mobile */}
