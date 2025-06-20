@@ -24,7 +24,7 @@ import { newPassword } from "@/actions/new-password";
 
 export const NewPasswordForm = () => {
   const searchParams = useSearchParams();
-  const token = searchParams.get("token");
+  const token = searchParams?.get("token");
 
   const [error, setError] = useState<string | undefined>("");
   const [success, setSuccess] = useState<string | undefined>("");

@@ -158,7 +158,7 @@ const ChatPage = () => {
                         Welcome to Onco Sight AI
                       </h3>
                       <p className="text-gray-500">
-                      I'm here to help with any questions related to cancer detection. Feel free to ask about symptoms, treatments, or general information.
+                        I&apos;m here to help with any questions related to cancer detection. Feel free to ask about symptoms, treatments, or general information.
                       </p>
                     </CardContent>
                   </Card>
