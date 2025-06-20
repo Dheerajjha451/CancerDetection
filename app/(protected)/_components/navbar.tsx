@@ -52,7 +52,7 @@ export const Navbar = () => {
           >
             <Link href="/braintumor">Brain Tumor</Link>
           </Button>
-          <Button
+          {/* <Button
             asChild
             variant={pathname === "/lungcancer" ? "default" : "outline"}
             className="w-full"
@@ -65,7 +65,7 @@ export const Navbar = () => {
             className="w-full"
           >
             <Link href="/skincancer">Skin Cancer</Link>
-          </Button>
+          </Button> */}
           <Button
             asChild
             variant={pathname === "/chatbot" ? "default" : "outline"}
