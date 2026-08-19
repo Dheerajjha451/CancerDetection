@@ -84,6 +84,16 @@ small-scale behaviour...</p>
           <Billy />
       </MaxWidthWrapper>
 
+      <footer className="mt-20 border-t border-gray-200/70 bg-white/70 backdrop-blur-sm">
+        <MaxWidthWrapper className="py-8">
+          <div className="text-center">
+            <p className="text-lg font-semibold">OncoSight</p>
+            <p className="mt-1 text-sm text-gray-600">
+              Empowering precision in cancer detection with smarter, accessible care support.
+            </p>
+          </div>
+        </MaxWidthWrapper>
+      </footer>
     </div>
   );
 }
