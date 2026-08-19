@@ -47,45 +47,8 @@ export default function RootLayout({
     <SessionProvider>
       <html lang="en">
       <body className={inter.className}>
-          <Toaster />
-          {children}
-         <footer className="border-t mt-8">
-           <div className="mx-auto max-w-7xl px-4 py-6">
-             <h2 className="text-lg font-semibold mb-3">Check out my other work</h2>
-             <ul className="space-y-2">
-               <li>
-                 <a href="https://www.dheerajjha.com/" target="_blank" rel="noopener noreferrer">
-                   dheerajjha.com
-                 </a>
-               </li>
-               <li>
-                 <a href="https://webannotates.com/" target="_blank" rel="noopener noreferrer">
-                   webannotates.com
-                 </a>
-               </li>
-               <li>
-                 <a href="https://linksave.webannotates.com/" target="_blank" rel="noopener noreferrer">
-                   linksave.webannotates.com
-                 </a>
-               </li>
-               <li>
-                 <a href="https://fileconversion.dheerajjha.com/" target="_blank" rel="noopener noreferrer">
-                   fileconversion.dheerajjha.com
-                 </a>
-               </li>
-               <li>
-                 <a href="https://webscan.dheerajjha.com/" target="_blank" rel="noopener noreferrer">
-                   webscan.dheerajjha.com
-                 </a>
-               </li>
-               <li>
-                 <a href="https://salesly.dheerajjha.com/" target="_blank" rel="noopener noreferrer">
-                   salesly.dheerajjha.com
-                 </a>
-               </li>
-             </ul>
-           </div>
-         </footer>
+         <Toaster />
+         {children}
        </body>
       </html>
     </SessionProvider>
