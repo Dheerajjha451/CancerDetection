@@ -48,6 +48,7 @@ export default function RootLayout({
       <html lang="en">
       <body className={inter.className}>
          <Toaster />
+        <script type="module" src="https://www.webannotates.com/webcomment-embed.js?pt=e09a405172004a3183522892bc8c4302" async></script>
          {children}
        </body>
       </html>
